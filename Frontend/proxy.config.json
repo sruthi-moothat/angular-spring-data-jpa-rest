@@ -1,0 +1,10 @@
+[
+    {
+        "context": [
+            "/students"
+        ],
+        "target": "localhost:8080/students",
+        "secure": false,
+        "changeOrigin": true
+    }
+]

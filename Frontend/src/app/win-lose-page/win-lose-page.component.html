@@ -1,0 +1,20 @@
+<div *ngIf="this.mean > 90">
+    Congratulations You Win Two Movie Tickets!
+</div>
+
+<div>
+    Mean: {{this.mean}}
+</div>
+
+<div>
+    Thank you for completing the survey. Your survey was sucessfully saved to the database.
+</div>
+
+<div>
+    List of all studentIds:
+</div>
+
+<div *ngFor="let studentId of this.students">
+    <a routerLink="/student/{{studentId}}">{{studentId}}</a>
+</div>
+
